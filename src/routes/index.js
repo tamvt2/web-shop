@@ -1,7 +1,5 @@
 function route(app) {
-	app.get('/', (req, res) => {
-		res.send('Welcome');
-	});
+	app.use('/', userRouter);
 }
 
 module.exports = route;
