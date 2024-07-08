@@ -1,3 +1,4 @@
+const userRouter = require('./user');
 function route(app) {
 	app.use('/', userRouter);
 }
